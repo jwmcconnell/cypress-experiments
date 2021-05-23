@@ -1,0 +1,15 @@
+Name: Browser Tests
+
+on: push
+
+jobs:
+  cypress-run-chrome:
+    runs-on: ubuntu-latest
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress run
+        env:
+          NODE_ENV: test
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
