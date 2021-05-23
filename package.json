@@ -1,0 +1,23 @@
+{
+  "name": "cypress-experiments",
+  "version": "1.0.0",
+  "description": "Test repo for cypress brown bag",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "NODE_ENV=test ./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwmcconnell/cypress-experiments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwmcconnell/cypress-experiments/issues"
+  },
+  "homepage": "https://github.com/jwmcconnell/cypress-experiments#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
